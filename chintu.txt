@@ -1,1 +1,34 @@
-empty
+Git Commands
+1.ls -a --> checks if git is installed inside a folder to track all the files
+2.git init --> which install git into folder
+3.git status --> used to track the status of every file whether any changes occurs
+4.git add all or git add . --> used to make the local files into staging area where every version of file is getting track
+5.git commit -m "message" --> which helps to commit or take a snapchat of staging area 
+6.git push localremotename master(nameingithub) -->push to central storage GitHub
+9️⃣ git push origin branchName
+➡ Pushes the committed changes from your local branch to the remote repository. Replace branchName with the actual branch name.
+
+5.git config --global user.name "Your Name"//name in github
+  ➡ Sets your Git username globally for all repositories on your system. Replace "Your Name"        with your actual name.
+6.git config --global user.email "your-email@example.com"
+➡ Sets your Git email globally, which is used in commit records. Replace "your-email@example.com" with your actual email.
+5️⃣ git remote add origin repoLink
+➡ Links your local repository to a remote repository hosted on platforms like GitHub or GitLab. Replace repoLink with your actual repository URL.
+6️⃣ ls -a
+➡ Lists all files, including hidden files, in the current directory.
+7️⃣ git status
+➡ Shows the current state of your working directory, including modified, staged, and untracked files.
+
+8️⃣ git log
+➡ Displays the commit history of the repository, showing commit messages, authors, and timestamps.
+
+
+///cloning is a process of taking others repositories into our local system
+
+STEPS
+	1 .create a folder in our system 
+ 	2.open git bash 
+	3.create git init
+	4.use git clone command
+
+1.git clone "link of repository"
